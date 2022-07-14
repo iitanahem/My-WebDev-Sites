@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="hello.php">
+       Name: <input type="text">
+       Photo : <input type="file" name="MyPhoto" id=""> <br>
+       Email: <input type="email" name="MyEmail"> <br>
+       Date of Birth(DOB): <input type="date" name="MyDate">
+       <div>
+           Address : <br>
+           Ward No. <input type="number" name="MyWard"> <br>
+           Village <input type="text"> <br>
+           Police Station <input type="text"> <br>
+           Post Office <input type="text"> <br>
+        </div>
+        Mobile : <input type="number" name="MyPhone"> <br>
+        Alt Mobile No. : <input type="number" name="MyPhone"> <br>
+        Marksheets
+        Class X<sup>th</sup> Marksheet : <input type="file" name="MyFile"> <br>
+        Class XII<sup>th</sup> Marksheet : <input type="file" name="MyFile"> <br>
+        <div>
+            <label for="Documents">Choose Documents to upload:</label>
+            <select name="MyDocuments" id="Documents">
+                <option value="AdrCrd">Aadhar card</option>
+                <option value="DrvngLcn">Driving Licence</option>
+                <option value="pssprt">Passport</option>
+                <option value="vtridcrd">Voter Id Card</option>
+                <option value="rsncrd">Ration card</option>
+            </select>
+            <input type="file" name="MyDocs">
+        </div>
+        
+        Explain yourself in brief: <br>
+        <textarea name="MyText" id="" cols="30" rows="10"></textarea> <br>
+        
+        <input type="submit" value="Submit Now"> 
+    </form>
+</body>
+</html>
